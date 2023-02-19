@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6533530f-6b58-463c-ad85-d1eac73a0f9e" name="Changes" comment="Refactor airport parking lot tests">
+    <list default="true" id="6533530f-6b58-463c-ad85-d1eac73a0f9e" name="Changes" comment="Refactor mall parking lot tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/service/MallParkingLotServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/service/MallParkingLotServiceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/service/StadiumParkingLotServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/service/StadiumParkingLotServiceTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,38 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MallParkingLotServiceTest.it should increment spot number for every vehicle with same vehicle type" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ParkingLot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.MallParkingLotServiceTest" />
-      <option name="METHOD_NAME" value="it should increment spot number for every vehicle with same vehicle type" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MallParkingLotServiceTest.it should start spot numbers from one for every vehicle type" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ParkingLot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.MallParkingLotServiceTest" />
-      <option name="METHOD_NAME" value="it should start spot numbers from one for every vehicle type" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MallParkingLotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParkingLot" />
       <extension name="coverage">
@@ -127,13 +95,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StadiumParkingLotServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ParkingLot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.StadiumParkingLotServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StadiumParkingLotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ParkingLot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.StadiumParkingLotTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in ParkingLot" />
+        <item itemvalue="JUnit.StadiumParkingLotTest" />
+        <item itemvalue="JUnit.StadiumParkingLotServiceTest" />
         <item itemvalue="JUnit.MallParkingLotServiceTest" />
         <item itemvalue="JUnit.MallParkingLotTest" />
-        <item itemvalue="JUnit.MallParkingLotServiceTest.it should increment spot number for every vehicle with same vehicle type" />
-        <item itemvalue="JUnit.MallParkingLotServiceTest.it should start spot numbers from one for every vehicle type" />
       </list>
     </recent_temporary>
   </component>
@@ -153,12 +151,20 @@
       <option name="project" value="LOCAL" />
       <updated>1676810654106</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor mall parking lot tests">
+      <created>1676811170259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676811170259</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor airport parking lot tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor airport parking lot tests" />
+    <MESSAGE value="Refactor mall parking lot tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor mall parking lot tests" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ParkingLot$service_in_ParkingLot.ic" NAME="service in ParkingLot Coverage Results" MODIFIED="1676618475089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
